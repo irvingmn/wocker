@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/bargee/data":{"create":true,"mount_options":["iocharset=utf8"],"guestpath":"/home/bargee/data","hostpath":"/Users/irvingnegrete/Documents/wocker/data","disabled":false,"__vagrantfile":true}}}

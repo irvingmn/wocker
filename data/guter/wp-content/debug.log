@@ -1,0 +1,44 @@
+[05-Jun-2018 21:35:57 UTC] PHP Warning:  Ha ocurrido un error inesperado. Algo puede estar mal con WordPress.org o la configuración de este servidor. Si continúas con problemas puedes dirigirte a los <a href="https://wordpress.org/support">foros de soporte</a>. (WordPress no pudo establecer una conexión segura con WordPress.org. Por favor, contacta al administrador de tu servidor) in /var/www/wordpress/wp-includes/update.php on line 347
+[05-Jun-2018 21:35:57 UTC] PHP Stack trace:
+[05-Jun-2018 21:35:57 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/admin-ajax.php:0
+[05-Jun-2018 21:35:57 UTC] PHP   2. do_action() /var/www/wordpress/wp-admin/admin-ajax.php:99
+[05-Jun-2018 21:35:57 UTC] PHP   3. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[05-Jun-2018 21:35:57 UTC] PHP   4. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[05-Jun-2018 21:35:57 UTC] PHP   5. wp_ajax_install_plugin() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[05-Jun-2018 21:35:57 UTC] PHP   6. Plugin_Upgrader->install() /var/www/wordpress/wp-admin/includes/ajax-actions.php:3682
+[05-Jun-2018 21:35:57 UTC] PHP   7. WP_Upgrader->run() /var/www/wordpress/wp-admin/includes/class-plugin-upgrader.php:107
+[05-Jun-2018 21:35:57 UTC] PHP   8. do_action() /var/www/wordpress/wp-admin/includes/class-wp-upgrader.php:793
+[05-Jun-2018 21:35:57 UTC] PHP   9. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[05-Jun-2018 21:35:57 UTC] PHP  10. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[05-Jun-2018 21:35:57 UTC] PHP  11. wp_update_plugins() /var/www/wordpress/wp-includes/class-wp-hook.php:284
+[05-Jun-2018 21:35:57 UTC] PHP  12. trigger_error() /var/www/wordpress/wp-includes/update.php:347
+[06-Jun-2018 23:46:42 UTC] PHP Notice:  Trying to get property of non-object in /var/www/wordpress/wp-content/plugins/elementor/modules/page-templates/module.php on line 132
+[06-Jun-2018 23:46:42 UTC] PHP Stack trace:
+[06-Jun-2018 23:46:42 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/post.php:0
+[06-Jun-2018 23:46:42 UTC] PHP   2. apply_filters() /var/www/wordpress/wp-admin/post.php:155
+[06-Jun-2018 23:46:42 UTC] PHP   3. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/plugin.php:203
+[06-Jun-2018 23:46:42 UTC] PHP   4. gutenberg_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[06-Jun-2018 23:46:42 UTC] PHP   5. require_once() /var/www/wordpress/wp-content/plugins/gutenberg/gutenberg.php:166
+[06-Jun-2018 23:46:42 UTC] PHP   6. do_action() /var/www/wordpress/wp-admin/admin-header.php:97
+[06-Jun-2018 23:46:42 UTC] PHP   7. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[06-Jun-2018 23:46:42 UTC] PHP   8. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[06-Jun-2018 23:46:42 UTC] PHP   9. gutenberg_editor_scripts_and_styles() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[06-Jun-2018 23:46:42 UTC] PHP  10. WP_Theme->get_page_templates() /var/www/wordpress/wp-content/plugins/gutenberg/lib/client-assets.php:1119
+[06-Jun-2018 23:46:42 UTC] PHP  11. apply_filters() /var/www/wordpress/wp-includes/class-wp-theme.php:1098
+[06-Jun-2018 23:46:42 UTC] PHP  12. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/plugin.php:203
+[06-Jun-2018 23:46:42 UTC] PHP  13. Elementor\Modules\PageTemplates\Module->add_page_templates() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[06-Jun-2018 23:46:56 UTC] PHP Notice:  Trying to get property of non-object in /var/www/wordpress/wp-content/plugins/elementor/modules/page-templates/module.php on line 132
+[06-Jun-2018 23:46:56 UTC] PHP Stack trace:
+[06-Jun-2018 23:46:56 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/post.php:0
+[06-Jun-2018 23:46:56 UTC] PHP   2. apply_filters() /var/www/wordpress/wp-admin/post.php:155
+[06-Jun-2018 23:46:56 UTC] PHP   3. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/plugin.php:203
+[06-Jun-2018 23:46:56 UTC] PHP   4. gutenberg_init() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[06-Jun-2018 23:46:56 UTC] PHP   5. require_once() /var/www/wordpress/wp-content/plugins/gutenberg/gutenberg.php:166
+[06-Jun-2018 23:46:56 UTC] PHP   6. do_action() /var/www/wordpress/wp-admin/admin-header.php:97
+[06-Jun-2018 23:46:56 UTC] PHP   7. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[06-Jun-2018 23:46:56 UTC] PHP   8. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[06-Jun-2018 23:46:56 UTC] PHP   9. gutenberg_editor_scripts_and_styles() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[06-Jun-2018 23:46:56 UTC] PHP  10. WP_Theme->get_page_templates() /var/www/wordpress/wp-content/plugins/gutenberg/lib/client-assets.php:1119
+[06-Jun-2018 23:46:56 UTC] PHP  11. apply_filters() /var/www/wordpress/wp-includes/class-wp-theme.php:1098
+[06-Jun-2018 23:46:56 UTC] PHP  12. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/plugin.php:203
+[06-Jun-2018 23:46:56 UTC] PHP  13. Elementor\Modules\PageTemplates\Module->add_page_templates() /var/www/wordpress/wp-includes/class-wp-hook.php:286
