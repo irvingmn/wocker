@@ -17,13 +17,11 @@ The MySQL file will be synced into the virtual machine and yourproject container
 ```root@****:/var/www/wordpress# wp --allow-root db import yourproject.sql```
 
 
-Note: you can only connect to the container created by v0.5.0 or later.
+__Note: you can only connect to the container created by v0.5.0 or later.__
 
-Information of database
-Host: wocker.dev (or 172.17.8.23)
-User: wordpress
-Password: wordpress
-Database: wordpress
-Port: 3306
-
-
+###Information of database
+####Host: wocker.dev (or 172.17.8.23)
+####User: wordpress
+####Password: wordpress
+####Database: wordpress
+####Port: 3306__
