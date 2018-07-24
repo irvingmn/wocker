@@ -1,5 +1,5 @@
 -ver curso grid  
-# h1 Conectar wocker con SequelPro
+#h1 Conectar wocker con SequelPro
 1. Connect to the guest machine via SSH
 ```$ vagrant ssh```
 
