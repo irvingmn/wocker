@@ -19,8 +19,8 @@ The MySQL file will be synced into the virtual machine and yourproject container
 
 __Note: you can only connect to the container created by v0.5.0 or later.__
 
-### Information of database
-#### Host: wocker.dev (or 172.17.8.23)
+### Información para conectar a la base de datos 
+#### Host: wocker.test o 172.17.8.23
 #### User: wordpress
 #### Password: wordpress
 #### Database: wordpress
