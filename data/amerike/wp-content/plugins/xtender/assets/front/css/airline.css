@@ -1,0 +1,219 @@
+.xtd-search-flight[v-cloak] {
+  display: none; }
+
+@media (max-width: 991px) {
+  .xtd-search-flight .btn {
+    display: block;
+    width: 100%;
+    margin-top: .5rem;
+    font-size: 90%; }
+  .xtd-search-flight .btn-primary {
+    font-size: 120%; } }
+
+.xtd-search-flight__leg {
+  margin-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+  @media (min-width: 768px) {
+    .xtd-search-flight__leg {
+      align-content: stretch;
+      position: relative;
+      flex-wrap: nowrap; } }
+  .xtd-search-flight__leg label {
+    text-transform: uppercase;
+    font-size: 80%; }
+
+.xtd-search-flight__from, .xtd-search-flight__to {
+  flex-grow: 1;
+  flex-basis: 100%;
+  margin-bottom: 1rem; }
+  @media (min-width: 768px) {
+    .xtd-search-flight__from, .xtd-search-flight__to {
+      flex-basis: 25%;
+      display: flex;
+      align-content: stretch;
+      flex-direction: column;
+      margin-bottom: 0; } }
+  .xtd-search-flight__from .v-select, .xtd-search-flight__to .v-select {
+    flex-grow: 1; }
+    .xtd-search-flight__from .v-select .dropdown-toggle, .xtd-search-flight__to .v-select .dropdown-toggle {
+      height: 100%;
+      border: 0;
+      position: relative;
+      border-radius: 0; }
+      .xtd-search-flight__from .v-select .dropdown-toggle .selected-tag + .form-control, .xtd-search-flight__to .v-select .dropdown-toggle .selected-tag + .form-control {
+        width: 4px !important; }
+
+@media (min-width: 768px) {
+  .xtd-search-flight__to {
+    margin-left: 10px; } }
+
+.xtd-search-flight__pax {
+  flex-basis: 120px;
+  margin-left: 10px; }
+  .xtd-search-flight__pax input {
+    min-height: 3rem; }
+  @media (min-width: 768px) {
+    .xtd-search-flight__pax {
+      flex-basis: 80px;
+      display: flex;
+      align-content: stretch;
+      flex-direction: column; }
+      .xtd-search-flight__pax input {
+        flex-grow: 1; } }
+
+.xtd-search-flight__date {
+  flex-grow: 1;
+  flex-shrink: 1; }
+  .xtd-search-flight__date input {
+    min-height: 3rem; }
+  @media (min-width: 768px) {
+    .xtd-search-flight__date {
+      margin-left: 10px;
+      display: flex;
+      align-content: stretch;
+      flex-direction: column;
+      flex-basis: 15%; }
+      .xtd-search-flight__date input {
+        flex-grow: 1; } }
+
+.xtd-search-flight__remove {
+  margin-top: 1rem;
+  display: inline-block;
+  width: 1.75rem;
+  height: 1.75rem;
+  position: absolute;
+  right: -2.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 2px solid currentColor;
+  border-radius: 100px;
+  line-height: 1rem;
+  text-align: center;
+  opacity: 0.75; }
+  .xtd-search-flight__remove:hover {
+    opacity: 1; }
+  .xtd-search-flight__remove a,
+  .xtd-search-flight__remove a:hover {
+    text-decoration: none; }
+
+.xtd-search-flight__requirements {
+  margin-bottom: 1rem;
+  position: relative; }
+
+.xtd-search-flight__airport-select {
+  font-size: 90%;
+  line-height: 1.3; }
+  .xtd-search-flight__airport-select small {
+    display: block;
+    opacity: 0.6; }
+
+.xtd-search-flight .v-select input[type=search],
+.xtd-search-flight .v-select input[type=search]:focus {
+  height: 3rem;
+  line-height: 3;
+  padding: 0 1rem; }
+
+.xtd-search-flight .v-select .dropdown-toggle .clear,
+.xtd-search-flight .v-select .dropdown-toggle .open-indicator {
+  bottom: auto;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.xtd-search-flight .v-select .dropdown-toggle .spinner {
+  bottom: auto;
+  top: 30%; }
+
+.xtd-search-flight .v-select .dropdown-toggle .open-indicator {
+  transform: translateY(-30%); }
+
+.xtd-search-flight .v-select .selected-tag {
+  margin: .5rem 0 0 .5rem; }
+
+.xtd-search-flight--modal {
+  padding: 10vh 2rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 1200px;
+  top: 100%;
+  transition: transform 360ms ease;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.xtd-search-flight__toggle-modal {
+  position: absolute;
+  height: 3rem;
+  line-height: 3rem;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0 1rem;
+  transition: all 120ms ease;
+  cursor: pointer; }
+  .xtd-search-flight__toggle-modal .fa {
+    transform: rotate(270deg); }
+  .xtd-search-flight__toggle-modal > div:last-child {
+    flex-grow: 1; }
+
+.xtd-search-flight--modal-opened {
+  top: 0;
+  bottom: 0; }
+  .xtd-search-flight--modal-opened .xtd-search-flight__toggle-modal {
+    top: 0;
+    bottom: auto; }
+
+@media (min-width: 992px) {
+  .xtd-search-flight--modal {
+    padding: 11vh 10vh;
+    left: auto;
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block; }
+  .xtd-search-flight__toggle-modal {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 100%;
+    transform-origin: bottom left;
+    width: 2rem;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    line-height: 2rem;
+    padding: 0; }
+    .xtd-search-flight__toggle-modal .fa {
+      transform: rotate(0deg); }
+    .xtd-search-flight__toggle-modal > div:first-child {
+      align-self: flex-start;
+      text-align: center;
+      width: 100%; }
+    .xtd-search-flight__toggle-modal > div:last-child {
+      align-self: flex-end;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding-bottom: 1rem; }
+      .xtd-search-flight__toggle-modal > div:last-child span {
+        transform: rotate(270deg) translateX(-100%);
+        display: inline-block;
+        transform-origin: top left;
+        white-space: nowrap; }
+        .xtd-search-flight__toggle-modal > div:last-child span strong {
+          display: inline-block;
+          margin-right: 1rem; }
+  .xtd-search-flight--modal-opened {
+    transform: translate(100%, -50%);
+    box-shadow: 12.25rem 1.375rem 24.75rem 0rem rgba(0, 0, 0, 0.42) !important;
+    bottom: auto; }
+    .xtd-search-flight--modal-opened .xtd-search-flight__toggle-modal {
+      top: 0;
+      bottom: 0; } }
