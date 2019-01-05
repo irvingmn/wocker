@@ -42,3 +42,13 @@
 [06-Jun-2018 23:46:56 UTC] PHP  11. apply_filters() /var/www/wordpress/wp-includes/class-wp-theme.php:1098
 [06-Jun-2018 23:46:56 UTC] PHP  12. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/plugin.php:203
 [06-Jun-2018 23:46:56 UTC] PHP  13. Elementor\Modules\PageTemplates\Module->add_page_templates() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[27-Oct-2018 20:11:52 UTC] PHP Warning:  Ha ocurrido un error inesperado. Algo puede estar mal con WordPress.org o la configuración de este servidor. Si continúas con problemas puedes dirigirte a los <a href="https://wordpress.org/support">foros de soporte</a>. (WordPress no pudo establecer una conexión segura con WordPress.org. Por favor, contacta al administrador de tu servidor) in /var/www/wordpress/wp-includes/update.php on line 529
+[27-Oct-2018 20:11:52 UTC] PHP Stack trace:
+[27-Oct-2018 20:11:52 UTC] PHP   1. {main}() /var/www/wordpress/wp-admin/index.php:0
+[27-Oct-2018 20:11:52 UTC] PHP   2. require_once() /var/www/wordpress/wp-admin/index.php:10
+[27-Oct-2018 20:11:52 UTC] PHP   3. do_action() /var/www/wordpress/wp-admin/admin.php:156
+[27-Oct-2018 20:11:52 UTC] PHP   4. WP_Hook->do_action() /var/www/wordpress/wp-includes/plugin.php:453
+[27-Oct-2018 20:11:52 UTC] PHP   5. WP_Hook->apply_filters() /var/www/wordpress/wp-includes/class-wp-hook.php:310
+[27-Oct-2018 20:11:52 UTC] PHP   6. _maybe_update_themes() /var/www/wordpress/wp-includes/class-wp-hook.php:286
+[27-Oct-2018 20:11:52 UTC] PHP   7. wp_update_themes() /var/www/wordpress/wp-includes/update.php:705
+[27-Oct-2018 20:11:52 UTC] PHP   8. trigger_error() /var/www/wordpress/wp-includes/update.php:529

@@ -1,0 +1,193 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: My Awesome WordPress Theme\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Jonathan MirCha <jonmircha@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Language: en_US\n"
+"X-Generator: Poedit 2.0.7\n"
+
+#. Text in function
+#: mawt/template-parts/pagination.php:4
+msgid "<span>&laquo; Anteriores</span>"
+msgstr "<span>&laquo; Previous</span>"
+
+#. Text in function
+#: mawt/template-parts/pagination.php:4
+msgid "<span>Siguientes &raquo;</span>"
+msgstr "<span>Next &raquo;</span>"
+
+#. Text in echo
+#: mawt/template-parts/content-main.php:10
+msgid "Autor: "
+msgstr "Author: "
+
+#. Text in echo
+#: mawt/template-parts/content-author.php:32
+msgid "Avatar: "
+msgstr "Avatar: "
+
+#. Text in echo
+#: mawt/sidebar.php:8
+msgid "Buscar"
+msgstr "Search"
+
+#. Text in echo
+#: mawt/template-parts/content-single.php:4
+msgid "Categorías:"
+msgstr "Categories:"
+
+#. Text in echo
+#: mawt/template-parts/content-main.php:7
+msgid "Categorías: "
+msgstr "Categories: "
+
+#. Text in echo
+#: mawt/template-parts/content-none.php:2
+msgid "Contenido inexistente"
+msgstr "Non-existent content"
+
+#. Text in function
+#: footer.php:19
+msgid "Copyright"
+msgstr "Copyright"
+
+#. Text in echo
+#: mawt/template-parts/content-author.php:11
+msgid "Correo: "
+msgstr "Email: "
+
+#. Text in echo
+#: mawt/template-parts/content-author.php:26
+msgid "Descripción: "
+msgstr "Description: "
+
+#. Text in echo
+#: mawt/404.php:4
+msgid "Error 404: Not Found"
+msgstr "Error 404: Not Found"
+
+#. Text in function
+#: mawt/functions.php:1
+msgid "Este es el sidebar principal"
+msgstr "This is the main sidebar"
+
+#. Text in echo
+#: mawt/template-parts/content-author.php:20
+msgid "Fecha de registro: "
+msgstr "Registration date: "
+
+#. Text in echo
+#: mawt/template-parts/content-main.php:9
+msgid "Fecha: "
+msgstr "Date: "
+
+#. Text in echo
+#: mawt/template-parts/content-main.php:11
+msgid "Formato de Entrada: "
+msgstr "Post Format: "
+
+#. Text in function
+#: mawt/comments.php:4
+msgid "Hay % comentarios"
+msgstr "There are% comments"
+
+#. Text in function
+#: mawt/comments.php:4
+msgid "Hay un comentario publicado"
+msgstr "There is a comment posted"
+
+#. Text in echo
+#: mawt/template-parts/content-single.php:2
+msgid "Información de la Pubicación"
+msgstr "Post's Information's"
+
+#. Text in echo
+#: mawt/template-parts/content-author.php:2
+msgid "Información del Autor:"
+msgstr "Author's Information:"
+
+#. Text in function
+#: mawt/functions.php:1 mawt/header.php:16
+msgid "Menú Principal"
+msgstr "Main Menu"
+
+#. Text in function
+#: mawt/functions.php:1
+msgid "Menú Redes Sociales"
+msgstr "Social Media Menu"
+
+#. Text in function
+#: mawt/comments.php:4
+msgid "No hay comentarios aún"
+msgstr "No comments yet"
+
+#. Text in echo
+#: mawt/template-parts/content-author.php:8
+msgid "Nombre: "
+msgstr "Name: "
+
+#. Text in echo
+#: mawt/template-parts/content-author.php:29
+msgid "Número de publicaciones: "
+msgstr "Number of posts: "
+
+#. Text in echo
+#: mawt/template-parts/content-none.php:4
+msgid "Realiza una búsqueda para encontrar lo que deseas."
+msgstr "Make a search to find what you want."
+
+#. Text in echo
+#: mawt/search.php:5
+msgid "Resultados para la búsqueda:"
+msgstr "Search results:"
+
+#. Text in function
+#: mawt/archive.php:17
+msgid "Resultados para la categoría:"
+msgstr "Results for the category:"
+
+#. Text in function
+#: mawt/archive.php:17
+msgid "Resultados para la etiqueta:"
+msgstr "Results for the tag:"
+
+#. Text in echo
+#: mawt/template-parts/content-author.php:23
+msgid "Rol del usuario: "
+msgstr "User's role: "
+
+#. Text in function
+#: mawt/functions.php:1
+msgid "Sidebar principal"
+msgstr "Main Sidebar"
+
+#. Text in echo
+#: mawt/template-parts/content-author.php:14
+msgid "Url: "
+msgstr "Url: "
+
+#. Text in echo
+#: mawt/template-parts/content-author.php:5
+msgid "Usuario: "
+msgstr "User: "
+
+#. Text in function
+#: mawt/inc/custom-excerpt.php:4
+msgid " leer más..."
+msgstr " read more..."
+
+#. Text in function
+#: mawt/inc/custom-description.php:15
+msgid "Resultados para la búsqueda: "
+msgstr "Search results: "
+
+#. Text in function
+#: mawt/inc/custom-description.php:17
+msgid "Error 404: No Encontrado. "
+msgstr "Error 404: Not Found. "

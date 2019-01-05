@@ -1,0 +1,28 @@
+/*!
+ Theme Name: My Awesome WP Theme
+Theme URI: https://jonmircha.com/mawt/
+Author: Jonathan MirCha
+Author URI: https://jonmircha.com/
+Description: Una breve descripción de las características que tu tema ofrece a nivel de diseño, programación y personalización. Escríbela en inglés.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, left-sidebar, full-width, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, theme-options, translation-ready
+Text Domain: mawt
+*/
+
+@import 'reset';
+@import 'header';
+@import 'menu';
+@import 'grid_layout';
+@import 'footer';
+@import 'widgets';
+@import 'search_form';
+@import 'social_menu';
+@import 'post';
+@import 'pagination';
+@import 'comments.css';
+@import 'not_found';
+@import 'author';
+@import 'wp_custom_header';
+@import 'hero_image';

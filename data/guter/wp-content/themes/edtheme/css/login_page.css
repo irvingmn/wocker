@@ -1,0 +1,103 @@
+body.login {
+  background-color: transparent;
+  background-image: url('../img/header-image.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body.login div#login {
+  width: 100%;
+  min-width: 200px;
+  max-width: 480px;
+  padding: 1rem;
+  background-color: var(--second-modal-color);
+  box-shadow: -.25rem .5rem 2.5rem .25rem var(--bg-modal-color);
+}
+
+body.login div#login h1 a {
+  background-image: url('../img/custom-logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+body.login div#login form#loginform { background-color: var(--main-modal-color); }
+
+body.login div#login form#loginform p label { color: var(--bg-color); }
+
+body.login div#login form#loginform input {
+  border: 1.5px solid var(--bg-color);
+  color: var(--bg-color);
+  background-color: transparent;
+}
+
+body.login div#login form#loginform input#user_login {
+  padding: .5rem;
+  font-size: 1rem;
+}
+
+body.login div#login form#loginform input#user_pass {
+  padding: .5rem;
+  font-size: 1rem;
+}
+
+body.login div#login form#loginform p.submit input#wp-submit {
+  border: 0;
+  background-color: var(--second-color);
+}
+
+body.login div#login p#nav { text-align: center; }
+
+body.login div#login p#nav a {
+  color: var(--bg-color);
+  transition: all .3s ease-out;
+}
+
+body.login div#login p#nav a:hover { color: var(--main-color); }
+
+body.login div#login p#backtoblog { text-align: center; }
+
+body.login div#login p#backtoblog a {
+  color: var(--bg-color);
+  transition: all .3s ease-out;
+}
+
+body.login div#login p#backtoblog a:hover { color: var(--main-color); }
+
+body.login div#login_error { background-color: var(--bg-alternate-color); }
+
+@media screen and (min-width: 20em) {
+  body.login div#login { padding: 2rem; }
+}
+
+@media screen and (min-width: 64em) {
+  body.login div#login {
+    padding: 2rem;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 'logo form'
+                                      'logo form'
+                                      'links form'
+                                      'error error';
+
+  }
+
+  body.login div#login h1 {
+    grid-area: logo;
+    align-self: end;
+  }
+
+  body.login div#login form#loginform { grid-area: form; }
+
+  .logo-links { grid-area: links; }
+
+  body.login div#login_error {
+    grid-area: error;
+    margin-top: 1rem;
+    text-align: center;
+  }
+}
